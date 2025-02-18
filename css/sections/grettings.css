@@ -6,19 +6,49 @@
 
 .grettings__container {}
 
-.header {}
+.header {
+    display: flex;
+    justify-content: space-between;
 
-.logo {}
+}
+
+.logo {
+    
+}
 
 .nav {}
 
-.nav__list {}
+.nav__list {
+    display: flex;
+    column-gap: 40px;
+    display: flex;
+    align-items: center;
+        
+}
 
-.nav__item {}
+.nav__item {
+    font-family: var(--LibreFr);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 171%;
+        color: #fff; 
+}
 
-.square {}
+.nav__item:last-child{
+    border: 2px solid white;
+    padding: 11px 17px;
+    border-radius: 4px;
+}
 
-.grettings__desc {}
+.square {
+    width: 4px;
+    height: 4px;
+    background-color: white;
+}
+
+.grettings__desc {
+    
+}
 
 .grettings__title {}
 
