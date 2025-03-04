@@ -1,0 +1,42 @@
+.service {
+    margin-top: 117px;
+}
+
+.service__content {}
+
+.service__main-text {
+    max-width: 507px;
+}
+
+
+
+.service__list {
+    display: flex;
+    margin-top: 54px;
+    
+}
+
+.service__item {
+    border: 1px solid  rgb(153, 153,153);
+    margin: 19px;
+    padding: 54px 5px 109px 41px ;
+    
+}
+
+.service__title {
+    font-family: var(--LibreFr);
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+color: #000;
+padding-bottom: 13px;
+padding-top: 30px;
+}
+
+.service__text {
+    font-family: var(--IBMPlexMono);
+font-weight: 400;
+font-size: 13px;
+line-height: 185%;
+color: #999;
+}
