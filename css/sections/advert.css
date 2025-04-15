@@ -22,3 +22,14 @@
 .advert__link {
     margin-top: 21px;
 }
+
+@media(max-width:600px){
+    .advert{
+        margin-top: 60px;
+
+    }
+
+    .advert__container{
+        margin-top: 70px;
+    }
+}

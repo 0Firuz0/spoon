@@ -70,3 +70,23 @@ margin-top: 150px;
     transform: scale(1.3)
 }
 
+@media(max-width:850px){
+    .footer__content{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 28px;
+        text-align: center;
+    }
+    
+    .footer__nav{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 40px;
+        text-align: center;
+    }
+
+    .footer{
+        margin-top: 70px;
+        padding: 85px 0 90px 0 ;
+    }
+}
